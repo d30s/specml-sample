@@ -26,7 +26,7 @@ Order {
   subtotal#Money
   taxAmount#Money
   shippingAmount#Money
-  discountAmount? Money
+  discountAmount#Money?
   totalAmount#Money
   
   // Addresses

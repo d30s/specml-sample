@@ -26,7 +26,7 @@ CreateOrderEndpoint {
     
     // Addresses
     shippingAddress#Address
-    billingAddress? Address  // Optional, defaults to shipping if not provided
+    billingAddress#Address?  // Optional, defaults to shipping if not provided
     
     // Payment
     paymentMethodId string<ulid>
